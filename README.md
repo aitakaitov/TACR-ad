@@ -10,3 +10,19 @@ The preprocessing steps are in <code>preprocessing.py</code> - some useless tags
 and then only the *p* tags are kept.
 
 The training is done with <code>train.py</code>.
+
+There are some 17 700 positive examples and some 64 000 negative examples.
+
+# Trained model
+
+The trained model WandB run: https://wandb.ai/aitakaitov/ads/runs/nqz86mee
+
+The trained model files: https://drive.google.com/file/d/1h043TSe9q9HLYZo60LgnPS9c8wulktyh/view?usp=sharing
+
+Class 0 == not an ad, class 1 == ad
+
+The training examples were truncated to 512 tokens.
+
+# Preprocessing comments
+
+In the HTML files the keyword "reklama" was present in a number of sites, both with ads being the subject of the article and not. Some articles just have ads at the beginning with a paragraph with just the word "Reklama". Since that could be a problem, I'm mentioning it here. It could be worth it to just remove all the occurences of this keyword, but the F1 score turned out alright, and the cleaning and retraining is a matter of a few hours.
