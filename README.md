@@ -19,6 +19,8 @@ The trained model WandB run: https://wandb.ai/aitakaitov/ads/runs/nqz86mee
 
 The trained model files: https://drive.google.com/file/d/1h043TSe9q9HLYZo60LgnPS9c8wulktyh/view?usp=sharing
 
+Model checkpoints for 1st and 2nd epochs: https://drive.google.com/file/d/1UtP6bPpoFJGtwDTmxfc5S9bqK68-cf5w/view?usp=sharing
+
 Class 0 == not an ad, class 1 == ad
 
 The training examples were truncated to 512 tokens.
